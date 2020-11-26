@@ -15,6 +15,7 @@ class ZergAgent(base_agent.BaseAgent):
   def __init__(self):
     """initialize a variable"""
     super(ZergAgent, self).__init__()
+    
     self.attack_coordinates = None
     self.safe_coordinates = None
     self.expand = None
